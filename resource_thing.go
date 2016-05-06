@@ -18,7 +18,7 @@ func resourceExampleThing() *schema.Resource {
 				Type:     schema.TypeString,
 				Required: true,
 			},
-			"connection": &schema.Schema{
+			"thing_connection": &schema.Schema{
 				Type:     schema.TypeList,
 				Required: true,
 				Elem: &schema.Resource{

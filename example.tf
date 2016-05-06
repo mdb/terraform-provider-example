@@ -1,6 +1,6 @@
 resource "example_thing" "test_thing" {
   name = "some name"
-  connection {
+  thing_connection {
     name = "some val"
   }
 }
