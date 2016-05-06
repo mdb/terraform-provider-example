@@ -23,7 +23,7 @@ func resourceExampleThing() *schema.Resource {
 				Required: true,
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
-						"key": &schema.Schema{
+						"name": &schema.Schema{
 							Type:     schema.TypeString,
 							Required: true,
 						},
